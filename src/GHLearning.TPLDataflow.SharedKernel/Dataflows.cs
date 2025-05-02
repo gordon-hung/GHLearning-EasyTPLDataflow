@@ -5,5 +5,5 @@ public enum Dataflows
 	BroadcastBlock,
 	BatchBlock,
 	BatchTimerBlock,
-	BatchRCBlock
+	BatchRXBlock
 }

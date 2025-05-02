@@ -34,12 +34,12 @@ public class TPLDataflowController : ControllerBase
 		return dataflowHandler.HandlerAsync(message, HttpContext.RequestAborted);
 	}
 
-	[HttpPost("Batch-RC-Block")]
-	public Task BatchRCBlockAsync(
+	[HttpPost("Batch-RX-Block")]
+	public Task BatchRXBlockAsync(
 		[FromServices] IServiceProvider serviceProvider,
 		[FromBody] DataflowMessage message)
 	{
-		var dataflowHandler = serviceProvider.GetKeyedService<IDataflowHandler>(Dataflows.BatchRCBlock) ?? throw new KeyNotFoundException(nameof(Dataflows.BatchRCBlock));
+		var dataflowHandler = serviceProvider.GetKeyedService<IDataflowHandler>(Dataflows.BatchRXBlock) ?? throw new KeyNotFoundException(nameof(Dataflows.BatchRXBlock));
 		return dataflowHandler.HandlerAsync(message, HttpContext.RequestAborted);
 	}
 }

@@ -9,8 +9,8 @@ using Microsoft.Extensions.Logging;
 
 namespace GHLearning.TPLDataflow.Application;
 
-internal class BatchRCBlockDataflowHandler(
-	ILogger<BatchRCBlockDataflowHandler> logger,
+internal class BatchRXBlockDataflowHandler(
+	ILogger<BatchRXBlockDataflowHandler> logger,
 	IPhoneUtensil phoneUtensil,
 	IFacebookService facebookService,
 	ILineService lineService,

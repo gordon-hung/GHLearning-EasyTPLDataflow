@@ -11,5 +11,5 @@ public static class ServiceCollectionExtensions
 		.AddKeyedSingleton<IDataflowHandler, BroadcastBlockDataflowHandler>(Dataflows.BroadcastBlock)
 		.AddKeyedSingleton<IDataflowHandler, BatchBlockDataflowHandler>(Dataflows.BatchBlock)
 		.AddKeyedSingleton<IDataflowHandler, BatchTimerBlockDataflowHandler>(Dataflows.BatchTimerBlock)
-		.AddKeyedSingleton<IDataflowHandler, BatchRCBlockDataflowHandler>(Dataflows.BatchRCBlock);
+		.AddKeyedSingleton<IDataflowHandler, BatchRXBlockDataflowHandler>(Dataflows.BatchRXBlock);
 }

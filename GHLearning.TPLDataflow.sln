@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.Appl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.WebApi", "src\GHLearning.TPLDataflow.WebApi\GHLearning.TPLDataflow.WebApi.csproj", "{117B02BF-8899-4772-85C3-5A469DB2D1D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.InfrastructureTests", "test\GHLearning.TPLDataflow.InfrastructureTests\GHLearning.TPLDataflow.InfrastructureTests.csproj", "{B7F479DD-0C4B-4911-86A1-D67E311FD0FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F479DD-0C4B-4911-86A1-D67E311FD0FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F479DD-0C4B-4911-86A1-D67E311FD0FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F479DD-0C4B-4911-86A1-D67E311FD0FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F479DD-0C4B-4911-86A1-D67E311FD0FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{393055BD-6C4F-4C21-93AA-3AE3B682D915} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{117B02BF-8899-4772-85C3-5A469DB2D1D9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{B7F479DD-0C4B-4911-86A1-D67E311FD0FD} = {3F234DC8-8230-4F5B-AE71-A37CA9E905A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {16B3C806-D3FC-49A9-89D8-3FC9FECDD5C7}

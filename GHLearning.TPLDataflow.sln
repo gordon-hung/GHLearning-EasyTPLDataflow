@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3F234DC8-8230-4F5B-AE71-A37CA9E905A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.Core", "src\GHLearning.TPLDataflow.Core\GHLearning.TPLDataflow.Core.csproj", "{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.SharedKernel", "src\GHLearning.TPLDataflow.SharedKernel\GHLearning.TPLDataflow.SharedKernel.csproj", "{E1DAB331-1081-425E-A0D5-16CFAD6FD63E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.Infrastructure", "src\GHLearning.TPLDataflow.Infrastructure\GHLearning.TPLDataflow.Infrastructure.csproj", "{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.Application", "src\GHLearning.TPLDataflow.Application\GHLearning.TPLDataflow.Application.csproj", "{393055BD-6C4F-4C21-93AA-3AE3B682D915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GHLearning.TPLDataflow.WebApi", "src\GHLearning.TPLDataflow.WebApi\GHLearning.TPLDataflow.WebApi.csproj", "{117B02BF-8899-4772-85C3-5A469DB2D1D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1DAB331-1081-425E-A0D5-16CFAD6FD63E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1DAB331-1081-425E-A0D5-16CFAD6FD63E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1DAB331-1081-425E-A0D5-16CFAD6FD63E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1DAB331-1081-425E-A0D5-16CFAD6FD63E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393055BD-6C4F-4C21-93AA-3AE3B682D915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393055BD-6C4F-4C21-93AA-3AE3B682D915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393055BD-6C4F-4C21-93AA-3AE3B682D915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393055BD-6C4F-4C21-93AA-3AE3B682D915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117B02BF-8899-4772-85C3-5A469DB2D1D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B92B063-0DC6-40EB-87D1-509D3ECAFFFB} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E1DAB331-1081-425E-A0D5-16CFAD6FD63E} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E7BCC26B-A507-4E4E-9AD6-BAFF8DC97F70} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{393055BD-6C4F-4C21-93AA-3AE3B682D915} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{117B02BF-8899-4772-85C3-5A469DB2D1D9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16B3C806-D3FC-49A9-89D8-3FC9FECDD5C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@GHLearning.TPLDataflow.WebApi_HostAddress = http://localhost:5102
+
+GET {{GHLearning.TPLDataflow.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
